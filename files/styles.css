@@ -178,7 +178,7 @@ header.scrolled .menu-btn{color:var(--text)}
 @media(max-width:720px){.about-grid{grid-template-columns:1fr}.portrait{max-width:260px}}
 
 /* ---- 9. RESEARCH CARDS ---- */
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(260px,340px));gap:1.4rem;justify-content:center}
 .card{
   background:var(--paper-2);border:1px solid var(--line);border-radius:var(--radius);
   padding:1.9rem 1.7rem;display:flex;flex-direction:column;gap:.9rem;
