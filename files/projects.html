@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Data Modeling &amp; Projects — Bassam Jameel</title>
+<meta name="description" content="Signal processing, imaging, and acoustic simulation projects by Bassam Jameel, plus scientific blog notes on ultrasound image reconstruction and sensor simulation." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header id="header">
+  <div class="wrap bar">
+    <a class="brand" href="index.html" aria-label="Bassam Jameel — home">
+      <span class="mark">BJ</span><span class="name">Bassam Jameel</span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <nav class="links" id="nav">
+      <a href="index.html">Home</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html" class="active" aria-current="page">Projects</a>
+      <a href="conferences.html">Conferences</a>
+      <a class="btn btn-ghost" href="contact.html">Get in touch</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="crumbs"><a href="index.html">Home</a> / Data Modeling</div>
+    <h1>Data Modeling &amp; Projects</h1>
+    <p>Practical work in ultrasound signal processing, image processing, and acoustic simulation.</p>
+  </div>
+  <svg class="wline" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30 H300 l20-22 30 44 25-52 18 40 22-18 H1200" fill="none" stroke="#1CC4D6" stroke-width="2" opacity=".6"/></svg>
+</section>
+
+<!-- ==================== PROJECTS ====================
+     EDIT: duplicate a .proj block per project. -->
+<section class="section">
+  <div class="wrap">
+    <div class="proj-grid reveal">
+      <div class="proj">
+        <span class="k">SIGNAL PROCESSING</span>
+        <h3>Ultrasound attenuation spectroscopy</h3>
+        <p>Extracting particle-size and concentration information from broadband attenuation measurements of magnetic fluids.</p>
+      </div>
+      <div class="proj">
+        <span class="k">MODELLING</span>
+        <h3>Acoustic scattering of Pickering emulsions</h3>
+        <p>Numerical scattering models for droplet-stabilised emulsions, validated against experimental spectra.</p>
+      </div>
+      <div class="proj">
+        <span class="k">SENSORS</span>
+        <h3>Optical ultrasound sensor signal chain</h3>
+        <p>Fabrication and signal-chain optimisation of high-frequency optical sensors for photoacoustic imaging.</p>
+      </div>
+      <div class="proj">
+        <span class="k">IMAGING</span>
+        <h3>2D / 3D image reconstruction</h3>
+        <p>Reconstruction pipelines turning raw acoustic data into interpretable ultrasound images.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== SCIENTIFIC BLOGS ==================== -->
+<section class="section dark" id="blog">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Scientific Blogs</span>
+      <h2>Notes &amp; write-ups</h2>
+      <p>Longer-form notes on 2D &amp; 3D ultrasound image reconstruction and sensor simulation.</p>
+    </div>
+    <div class="proj-grid reveal">
+      <div class="proj" style="background:var(--ink-2);border-color:var(--line-d);color:#fff">
+        <span class="k">RECONSTRUCTION</span>
+        <h3 style="color:#fff">Reconstructing a 3D ultrasound volume</h3>
+        <p style="color:var(--muted-d)">A walkthrough of turning raw scan lines into a 3D volume &mdash; <em>replace with your post</em>.</p>
+      </div>
+      <div class="proj" style="background:var(--ink-2);border-color:var(--line-d);color:#fff">
+        <span class="k">SIMULATION</span>
+        <h3 style="color:#fff">Simulating an acoustic sensor</h3>
+        <p style="color:var(--muted-d)">Notes on modelling sensor response and the acoustic field &mdash; <em>replace with your post</em>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="copy">&copy; <span id="yr"></span> Bassam Jameel &middot; Marseille, France</span>
+    <span class="foot-links">
+      <a href="index.html">Home</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html">Projects</a>
+      <a href="conferences.html">Conferences</a>
+      <a href="contact.html">Contact</a>
+    </span>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
