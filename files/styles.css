@@ -215,6 +215,9 @@ header.scrolled .menu-btn{color:var(--text)}
 .proj .k{font-family:var(--font-mono);font-size:.74rem;color:var(--cyan-deep);letter-spacing:.05em}
 .proj h3{font-size:1.15rem;margin:.6rem 0 .55rem}
 .proj p{color:var(--muted);font-size:.93rem}
+.proj .more{font-family:var(--font-mono);font-size:.8rem;color:var(--cyan-deep);display:inline-flex;gap:.4rem;align-items:center;margin-top:.9rem}
+.proj .more .arrow{transition:transform .18s ease}
+.proj:hover .more .arrow{transform:translateX(3px)}
 .proj-img{width:240px;flex-shrink:0;border-radius:calc(var(--radius) - 4px);overflow:hidden}
 .proj-img img{display:block;width:100%;height:auto}
 @media(max-width:720px){.proj{flex-direction:column;align-items:stretch}.proj-img{width:100%}}
@@ -257,6 +260,8 @@ footer a{color:var(--muted-d);font-family:var(--font-mono);font-size:.8rem}
 footer a:hover{color:var(--cyan)}
 footer .foot-links{display:flex;gap:1.4rem;flex-wrap:wrap}
 footer .copy{font-family:var(--font-mono);font-size:.78rem}
+
+/* ---- 16. CTA BAND (home) ---- */
 
 /* ---- 16. SCROLL REVEAL + REDUCED MOTION ---- */
 .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
