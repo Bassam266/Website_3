@@ -261,8 +261,6 @@ footer a:hover{color:var(--cyan)}
 footer .foot-links{display:flex;gap:1.4rem;flex-wrap:wrap}
 footer .copy{font-family:var(--font-mono);font-size:.78rem}
 
-/* ---- 16. CTA BAND (home) ---- */
-
 /* ---- 16. SCROLL REVEAL + REDUCED MOTION ---- */
 .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
 .reveal.in{opacity:1;transform:none}
