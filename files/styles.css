@@ -208,13 +208,16 @@ header.scrolled .menu-btn{color:var(--text)}
 .group-label:first-child{margin-top:0}
 
 /* ---- 11. PROJECTS ---- */
-.proj-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.4rem}
-.proj{background:var(--paper-2);border:1px solid var(--line);border-radius:var(--radius);padding:1.8rem;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+.proj-grid{display:grid;grid-template-columns:1fr;gap:1.4rem}
+.proj{background:var(--paper-2);border:1px solid var(--line);border-radius:var(--radius);padding:1.8rem;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease;display:flex;align-items:center;gap:2rem}
 .proj:hover{transform:translateY(-4px);border-color:var(--cyan);box-shadow:0 18px 40px rgba(10,24,38,.08)}
+.proj-body{flex:1;min-width:0}
 .proj .k{font-family:var(--font-mono);font-size:.74rem;color:var(--cyan-deep);letter-spacing:.05em}
 .proj h3{font-size:1.15rem;margin:.6rem 0 .55rem}
 .proj p{color:var(--muted);font-size:.93rem}
-@media(max-width:720px){.proj-grid{grid-template-columns:1fr}}
+.proj-img{width:240px;flex-shrink:0;border-radius:calc(var(--radius) - 4px);overflow:hidden}
+.proj-img img{display:block;width:100%;height:auto}
+@media(max-width:720px){.proj{flex-direction:column;align-items:stretch}.proj-img{width:100%}}
 
 /* ---- 12. CONFERENCES ---- */
 .conf{display:grid;grid-template-columns:1fr auto;gap:1rem;padding:1.15rem 0;border-top:1px solid var(--line);align-items:center}
